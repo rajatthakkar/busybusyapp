@@ -1,0 +1,27 @@
+.landingcontainer{
+    display: flex;
+    width: inherit;
+    height: inherit;
+   z-index: -1;
+}
+.left{
+   display: flex;
+   justify-content: center;
+    width:18%;
+    height:inherit;
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+     margin-left: 1rem;
+}
+.searchbox{
+    display: flex;
+    align-items: end;
+    width: 50%;
+    height: 15vh;
+    margin: auto;
+    margin-bottom: 1rem;
+   
+}

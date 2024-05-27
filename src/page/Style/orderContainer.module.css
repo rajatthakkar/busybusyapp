@@ -1,0 +1,40 @@
+.orderContainer{
+    display: flex;
+    flex-direction: column;
+}
+table {
+    border: 1px solid;
+    
+  }
+  th{
+    border: 1px solid;
+  }
+  td{
+    border: 1px solid;
+  }
+  
+thead th,
+tfoot th {
+  font-family: "Rock Salt", cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
